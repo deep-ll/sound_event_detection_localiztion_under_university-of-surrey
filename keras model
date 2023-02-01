@@ -55,4 +55,4 @@ def get_model(data_in, data_out, dropout_rate, nb_cnn2d_filt, pool_size,
     model.compile(optimizer=Adam(), loss=['binary_crossentropy', 'mse'], loss_weights=weights)
 
     model.summary()
-    return model
+    return model 
